@@ -77,6 +77,7 @@ public class GameWorld extends World
     
     public void act()
     {
+        backsound.setVolume(45);
         backsound.playLoop();
         
         if (Greenfoot.mouseClicked(null))
